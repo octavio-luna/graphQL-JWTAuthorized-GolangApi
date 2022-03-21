@@ -6,5 +6,7 @@ import (
 )
 
 func main() {
+	//If the first time running the api, uncomment configDB to migrate the models
+	// api.ConfigDB()
 	api.Run()
 }
